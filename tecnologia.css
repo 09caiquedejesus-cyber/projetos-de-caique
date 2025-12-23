@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+
+@font-face {
+    font-family: 'caique' ;
+    src: url('fontes/IRON\ MAN\ OF\ WAR\ 002\ NCV.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+
+:root{
+    --cor-1:#012E40;
+    --cor2:#025159;
+    --cor3:#038C8C;
+    --cor4:#03A696;
+    --cor5:#F28705;
+
+    --google-fonts:"DM Serif Text", serif;
+    --font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+    --font-secundaria: 'caique';
+    --font-3: "Barriecito", system-ui;
+}
+
+body{
+    background-color:var(--cor4);
+}
+
+header{
+    background-color: var(--cor5);
+    min-height: 200px;
+}
+
+header >h1{
+    text-align: center;
+    font-family: var(--font-3);
+    color: white;
+    
+   
+}
+header >h1:hover{
+   background-color: var(--cor4);
+   border-radius: 15px;
+   margin: 0px 10px 0px 10px;
+
+  
+}
+
+nav > a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+   margin-top: 80px;
+   color: white;
+}
+
+nav > a:hover{
+    background-color:var(--cor4);
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+main{
+    max-width: 960px;
+    min-width: 350px;
+    background-color: white;
+    margin: auto;
+    border-radius: 3px;
+    padding: 20px;
+    box-shadow: 0px 2px 7px black;
+}
+
+main h2{
+    font-family: var(--font-3);
+    background-image: linear-gradient(to right, var(--cor4,),transparent);
+    padding-left: 10px;
+}
+
+main p{
+    text-align: justify;
+    text-indent: 20px;
+    padding: 20px;
+    line-height: 2.0em;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    padding: 5px;
+}
+
+main a:hover{
+     background-color: var(--cor2);
+     border-radius: 10px;
+}
+
+main img{
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    height: auto;
+
+
+}
+
+article .p-link{
+    color: var(--cor-1);
+    font-family: var(--font-family);
+}
+
+aside{
+   background-image: linear-gradient(to bottom, var(--cor2,),transparent);
+   padding: 20px;
+   font-family: var(--font-secundaria);
+   font-weight: normal;
+   box-shadow: 0px 2px 7px black;
+}
+
+aside ul{
+    list-style-type: circle;
+    list-style-position: inside;
+    line-height: 2.0em;
+    
+}
+
+aside >h3{
+    font-size: 1.6em;
+}
+aside > p{
+    font-size: 1.4em;
+}
+
+footer{
+    padding: 10px;
+    font-family: var(--font-secundaria);
+    text-align: center;
+}
