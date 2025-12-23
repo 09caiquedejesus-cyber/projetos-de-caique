@@ -1,2 +1,2 @@
 # projetos-de-caique
-tudo que aprendi ate agora
+tudo que aprendi até agora
